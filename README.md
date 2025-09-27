@@ -1,3 +1,11 @@
 # AP7 - Parking 
 ## Travail de groupe: Hirsch,Benjamin et Joy 
-### Afin d’éviter le stationnement sauvage dans le labyrinthe qu’est le parking, il a été décidé d’attribuer à chaque membre qui le demandait une place de parking numérotée.
+
+### Application web interne permettant aux membres d'une organisation de réserver une place de parking de manière automatisée. Le système attribue les places aléatoirement, gère les files d'attente et offre un panel d'administration complet.
+
+**Fonctionnalités principales :**
+- Réservation immédiate et automatique des places
+- Gestion intelligente des files d'attente
+- Interface administrateur complète
+- Système de sécurité robuste
+
