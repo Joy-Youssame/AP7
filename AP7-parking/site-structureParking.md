@@ -46,7 +46,7 @@
 
 ## 🔌 Endpoints API (Retournent du JSON)
 
-Ces URLs sont destinées à être appelées en AJAX depuis ton frontend.
+Ces URLs sont destinées à être appelées en AJAX depuis mon frontend.
 
 | URL | Méthode HTTP | Description |
 | :--- | :--- | :--- |
