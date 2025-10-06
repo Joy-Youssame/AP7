@@ -21,8 +21,8 @@ CREATE TABLE RESERVATION (
     status ENUM('active', 'completed', 'cancelled') DEFAULT 'active',
     id_user INT NOT NULL,
     id_spot INT NOT NULL,
-    FOREIGN KEY (id_user) REFERENCES USER(id_user),
-    FOREIGN KEY (id_spot) REFERENCES PARKING_SPOT(id_spot)
+    FOREIGN KEY (id_user) REFERENCES USER (id_user),
+    FOREIGN KEY (id_spot) REFERENCES PARKING_SPOT (id_spot)
 );
 
 CREATE TABLE WAITING_LIST (
@@ -31,4 +31,5 @@ CREATE TABLE WAITING_LIST (
     request_date DATETIME DEFAULT CURRENT_TIMESTAMP,
     id_user INT NOT NULL UNIQUE,
     FOREIGN KEY (id_user) REFERENCES USER(id_user)
+
 );
