@@ -48,7 +48,8 @@
 
 Ces URLs sont destinées à être appelées en AJAX depuis mon frontend.
 
-| URL | Méthode HTTP | Description |
+| URL | Méthode HTTP | Descriptions |
 | :--- | :--- | :--- |
-| `/api/user/spot-status` | `GET` | Renvoie le statut de l'utilisateur (place active, position en file, etc.) |
+| `/api/user/spot-status` | `GET` | Renvoie le statut de l'utilisateur (place active, position en file, etc) |
+
 | `/api/admin/stats` | `GET` | Renvoie les statistiques pour le dashboard admin |
