@@ -4,7 +4,7 @@
 
 | URL | Méthode HTTP | Description |
 | :--- | :--- | :--- |
-| `/` | `GET` | Page d'accueil / Redirection vers `/login` |
+| `/` | `GET` | Page d'accueil / Redirection vers `/login si non connecté vers`/dashboard connecté |
 | `/login` | `GET` | Formulaire de connexion |
 | `/login` | `POST` | Traitement de la tentative de connexion |
 | `/forgot-password` | `GET` | Formulaire de demande de réinitialisation de mot de passe |
@@ -51,4 +51,5 @@ Ces URLs sont destinées à être appelées en AJAX depuis mon frontend.
 | URL | Méthode HTTP | Description |
 | :--- | :--- | :--- |
 | `/api/user/spot-status` | `GET` | Renvoie le statut de l'utilisateur (place active, position en file, etc.) |
+
 | `/api/admin/stats` | `GET` | Renvoie les statistiques pour le dashboard admin |
